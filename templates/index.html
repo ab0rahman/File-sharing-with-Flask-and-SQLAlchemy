@@ -1,0 +1,18 @@
+<!-- templates/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Share with Flask App</h1>
+    <p>Please choose an option:</p>
+    <ul class="options">
+        <li><a class="login-link" href="{{ url_for('login') }}">Login</a></li>
+        <li><a class="register-link" href="{{ url_for('register') }}">Register</a></li>
+    </ul>
+</body>
+</html>
