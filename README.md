@@ -1,5 +1,10 @@
 # Flask File Sharing Platform
 
+&nbsp;[![](https://img.shields.io/badge/python-3.12.4-blue.svg)](https://www.python.org/downloads/)  
+&nbsp;[![](https://img.shields.io/badge/flask-2.3.2-blue.svg)](https://flask.palletsprojects.com/)  
+&nbsp;[![](https://img.shields.io/badge/sqlalchemy-2.0.20-red.svg)](https://www.sqlalchemy.org/)  
+
+
 ## Project Overview
 
 This project is a file-sharing platform built using the Flask microframework. It provides secure user authentication and password hashing, allowing users to upload and download files within an organization. The platform ensures secure collaboration on project-related files, running on localhost.
@@ -119,3 +124,8 @@ Route Endpoints
 `/upload` File upload page (requires login)
 
 `/download/<filename>` File download endpoint (requires login)
+
+## Results
+
+ Check out the results by [Clicking here](https://github.com/user-attachments/assets/5dde8873-036f-421e-9dad-fe2268f6211c) 
+
