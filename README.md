@@ -127,3 +127,11 @@ Route Endpoints
 
  Check out the results by [Clicking here](https://github.com/user-attachments/assets/5dde8873-036f-421e-9dad-fe2268f6211c) 
 
+# Collaborators
+## 🔗 Links
+
+  **Abdur Rahman**
+  
+[![github](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ab0rahman)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdur-rahman-5491a824b/)
+[![gmail](https://img.shields.io/badge/gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:letsmail.him@gmail.com)
