@@ -74,8 +74,6 @@ Authenticated users can upload files, which are stored in the uploads directory 
 #### 4. User Logout
 Users can log out from the application, which redirects them to the login page.
 
-<img src="https://github.com/ab0rahman/Object_Detection/blob/main/results/image2.jpg?raw=true" width="500" />
-
 #### 5. Index Page
 A simple index page that acts as the landing page of the application.
 
