@@ -1,8 +1,6 @@
 # Flask File Sharing Platform
 
-&nbsp;[![](https://img.shields.io/badge/python-3.12.4-blue.svg)](https://www.python.org/downloads/)  
-&nbsp;[![](https://img.shields.io/badge/flask-2.3.2-blue.svg)](https://flask.palletsprojects.com/)  
-&nbsp;[![](https://img.shields.io/badge/sqlalchemy-2.0.20-red.svg)](https://www.sqlalchemy.org/)  
+&nbsp;[![](https://img.shields.io/badge/python-3.12.4-blue.svg)](https://www.python.org/downloads/)  &nbsp;[![](https://img.shields.io/badge/flask-2.3.2-blue.svg)](https://flask.palletsprojects.com/)  &nbsp;[![](https://img.shields.io/badge/sqlalchemy-2.0.20-red.svg)](https://www.sqlalchemy.org/)  
 
 
 ## Project Overview
