@@ -59,25 +59,65 @@ Default Port `5000` is the default port that Flask uses when you run the develop
 #### 1. User Registration
 Allows new users to register by providing a username, email, and password. The password is hashed for security.
 
+<img src="https://github.com/ab0rahman/File-sharing-with-Flask-and-SQLAlchemy/blob/main/files/Screenshot%202024-07-10%20192850.png?raw=true" width="500" />
+
 #### 2. User Login
 Allows existing users to log in using their email and password. Passwords are verified against the hashed password stored in the database.
 
-3. File Upload
-Authenticated users can upload files, which are stored in the uploads directory and logged in the database with the user's ID.
+<img src="https://github.com/ab0rahman/File-sharing-with-Flask-and-SQLAlchemy/blob/main/files/Screenshot%202024-07-10%20192737.png?raw=true" width="500" />
 
-4. File Download
-Authenticated users can download files they have uploaded by clicking on the file name in the upload list.
+#### 3. File Upload and Download
+Authenticated users can upload files, which are stored in the uploads directory and logged in the database with the user's ID and users can download files they have uploaded by clicking on the file name in the upload list.
 
-5. User Logout
+<img src="https://github.com/ab0rahman/File-sharing-with-Flask-and-SQLAlchemy/blob/main/files/Screenshot%202024-07-10%20192719.png?raw=true" width="500" />
+
+#### 4. User Logout
 Users can log out from the application, which redirects them to the login page.
 
-6. Index Page
+<img src="https://github.com/ab0rahman/Object_Detection/blob/main/results/image2.jpg?raw=true" width="500" />
+
+#### 5. Index Page
 A simple index page that acts as the landing page of the application.
 
+<img src="https://github.com/ab0rahman/File-sharing-with-Flask-and-SQLAlchemy/blob/main/files/Screenshot%202024-07-10%20192940.png?raw=true" width="500" />
+
+#### 6. Flask Shell Access
+Allows users to access the database of users and files through Flask shell commands. This can be useful for administrative tasks and data inspection.
+
+To access the Flask shell, run
+
+```bash
+flask shell
+```
+In the shell, you can interact with the User and File db
+
+```bash
+# For user database
+from app import db, User, File
+users = User.query.all()
+  for user in users:
+    print(user.username, user.email)
+```
+```bash
+# For files database
+from app import db, User, File
+files = File.query.all()
+  for file in files:
+    print(file.filename, file.user.username)
+```
+<img src="https://github.com/ab0rahman/File-sharing-with-Flask-and-SQLAlchemy/blob/main/files/Screenshot%202024-07-10%20193708.png?raw=true" width="500" />
+
+
 Route Endpoints
-/: Index page
-/register: User registration page
-/login: User login page
-/logout: User logout
-/upload: File upload page (requires login)
-/download/<filename>: File download endpoint (requires login)
+
+`/:` Index page
+
+`/register` User registration page
+
+`/login` User login page
+
+`/logout` User logout
+
+`/upload` File upload page (requires login)
+
+`/download/<filename>` File download endpoint (requires login)
